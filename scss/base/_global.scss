@@ -7,11 +7,16 @@
 // Import Google Font: Inter
 @import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
 
-// body {
-//   background: linear-gradient(-45deg, #f8fafc, #e8edf3, #dde4ef, #eef2f7);
-//   background-size: 400% 400%;
-//   animation: gradientShift 18s ease infinite;
-// }
+body {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  background: linear-gradient(-45deg, #f8fafc, #e8edf3, #dde4ef, #eef2f7);
+  background-size: 400% 400%;
+  animation: gradientShift 18s ease infinite;
+}
 
 @keyframes gradientShift {
   0% {
