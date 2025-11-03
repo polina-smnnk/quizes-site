@@ -46,23 +46,63 @@
     </header>
 
     <main>
-      <section class="info-section">
+      <section class="quiz-section">
         <div class="container">
-          <div class="quiz-header">
-            <nav class="quiz-breadcrumbs">
-              <ul>
-                <li class="quiz-item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="quiz-item">
-                  <a href="#">Quiz List</a>
-                </li>
-                <li class="active">General Knowledge Quiz</li>
-              </ul>
-            </nav>
-
-            <h1 class="quiz-title">Challenge Your Mind with Our Daily Quiz</h1>
-            <p class="quiz-subtitle">Test your knwoledge and learn something new every day</p>
+          <nav class="quiz-breadcrumbs">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Quiz List</a></li>
+              <li class="active">Quiz name</li>
+            </ul>
+          </nav>
+          <h1 class="quiz-title">Quiz question</h1>
+          <div class="quiz-layout">
+            <div class="quiz-question-block">
+              <form id="quizForm">
+                <label class="quiz-option">
+                  <input type="radio" name="answer" value="A" />
+                  <span>A.</span>
+                </label>
+                <label class="quiz-option">
+                  <input type="radio" name="answer" value="B" />
+                  <span>B.</span>
+                </label>
+                <label class="quiz-option">
+                  <input type="radio" name="answer" value="C" />
+                  <span>C.</span>
+                </label>
+                <label class="quiz-option">
+                  <input type="radio" name="answer" value="D" />
+                  <span>D. </span>
+                </label>
+                <button type="submit" class="submit-button">
+                  Submit Answer
+                </button>
+              </form>
+            </div>
+            <aside class="quiz-sidebar">
+              <div class="quiz-timer">
+                <div class="timer-circle">
+                  <span class="timer-value">0:20</span>
+                  <p class="timer-label">Timer Remaining</p>
+                </div>
+              </div>
+              <div class="quiz-list">
+                <h3>Quiz Questions List</h3>
+                <ul class="question-list">
+                  <li class="active">Quiz question 1</li>
+                  <li>Quiz question 2</li>
+                  <li>Quiz question 3</li>
+                  <li>Quiz question 4</li>
+                  <li>Quiz question 5</li>
+                  <li>Quiz question 6</li>
+                  <li>Quiz question 7</li>
+                  <li>Quiz question 8</li>
+                  <li>Quiz question 9</li>
+                  <li>Quiz question 10</li>
+                </ul>
+              </div>
+            </aside>
           </div>
         </div>
       </section>
