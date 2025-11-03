@@ -1,0 +1,26 @@
+/* =========================
+   Global Styles
+   Animated Gradient Background
+   For: Quizzes Site
+   ========================= */
+
+// Import Google Font: Inter
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+
+// body {
+//   background: linear-gradient(-45deg, #f8fafc, #e8edf3, #dde4ef, #eef2f7);
+//   background-size: 400% 400%;
+//   animation: gradientShift 18s ease infinite;
+// }
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
