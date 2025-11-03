@@ -101,4 +101,27 @@ quizForm.addEventListener("submit", function (e) {
   }
 });
 
+let timeLeft = 180;
+const timerValue = document.querySelector(".timer-value");
+
+function startTimer() {
+  const countdown = setInterval(() => {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+
+    timerValue.textContent = `${minutes}:${
+      seconds < 10 ? "0" + seconds : seconds
+    }`;
+
+    timeLeft--;
+    if (timeLeft < 0) {
+      clearInterval(countdown);
+      timerValue.textContent = "Time's up!";
+      timerValue.style.color = "#d32f2f";
+    }
+  }, 1000);
+}
+
+startTimer();
+
 renderQuestion(currentQuestionIndex);

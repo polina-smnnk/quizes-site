@@ -20,12 +20,12 @@
 
         &.active {
           font-weight: bold;
-          color: #333;
+          color: #4caf50;
         }
 
         a {
           text-decoration: none;
-          color: #4caf50;
+          color: #333;
 
           &:hover {
             text-decoration: underline;
@@ -38,7 +38,7 @@
   .quiz-title {
     font-size: 1.8rem;
     font-weight: 600;
-    color: #222;
+    color: #222222;
   }
 
   .quiz-layout {
@@ -113,28 +113,34 @@
       display: flex;
       justify-content: center;
 
-      .timer-circle {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        border: 6px solid #4caf50;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.2rem;
-        color: #333;
+.timer-circle {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  border: 6px solid #4caf50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
 
-        .timer-value {
-          font-weight: bold;
-          font-size: 1.5rem;
-        }
+  .timer-value {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1;
+  }
 
-        .timer-label {
-          font-size: 0.9rem;
-          color: #666;
-        }
-      }
+  .timer-label {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.2;
+  }
+}
+
     }
 
     .quiz-list {
