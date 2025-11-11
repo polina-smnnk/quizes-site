@@ -1,9 +1,10 @@
-#
+# QuizMind - website with quizes
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Made with HTML/CSS/JS](https://img.shields.io/badge/made%20with-HTML%2FCSS%2FJS-orange)
+
 ---
 
-## 🇬🇧 README — Survey Site (Quiz-Style)
-
-```markdown
 # 🗳️ Survey Site
 
 A simple web application where users can participate in surveys.  
@@ -12,6 +13,7 @@ Each survey contains a **question and multiple answer options**, but **there are
 ---
 
 ## 🚀 Features
+
 - 🧩 Display of questions and multiple answer options  
 - ✍️ User can select one or more answers  
 - 💬 No scoring — results show only the user’s choice  
@@ -21,6 +23,7 @@ Each survey contains a **question and multiple answer options**, but **there are
 ---
 
 ## 🛠️ Technologies
+
 - ** HTML / CSS / JavaScript  
 - ** Node.js 
 - **Hosting:** GitHub Pages 
@@ -28,6 +31,7 @@ Each survey contains a **question and multiple answer options**, but **there are
 ---
 
 ## ⚙️ Installation and Setup
+
 ```bash
 # Clone the repository
 git clone https://github.com/polina-smnnk/quizes-site.git
