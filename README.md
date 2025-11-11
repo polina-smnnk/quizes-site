@@ -24,8 +24,7 @@ Each survey contains a **question and multiple answer options**, but **there are
 
 ## 🛠️ Technologies
 
-- ** HTML / CSS / JavaScript  
-- ** Node.js 
+- ** HTML / CSS / JavaScript
 - **Hosting:** GitHub Pages 
 
 ---
